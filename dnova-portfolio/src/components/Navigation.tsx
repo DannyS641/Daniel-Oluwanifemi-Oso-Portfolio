@@ -7,7 +7,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0 font-bold text-2xl">
-            <span className="text-black">Daniel Oso</span>
+            <span className="text-black">Daniel Oluwanifemi Oso</span>
           </div>
           {/* Menu Items */}
           <div className="hidden md:flex space-x-8">
