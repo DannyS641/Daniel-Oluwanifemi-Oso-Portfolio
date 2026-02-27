@@ -16,12 +16,12 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "Dolphins Rental",
+    title: "House of Dolphins",
     category: "Web Application",
     description:
       "Property rental platform focused on fast discovery, clear listings, and smooth booking flows.",
     image: "/placeholders/Dolphins%20Rental.png",
-    url: "https://dolphins-rental.vercel.app/",
+    url: "https://house-of-dolphins.vercel.app/",
     role: "Application Manager & Web Developer",
     responsibilities: [
       "Tracked availability, and performance",
@@ -154,7 +154,3 @@ export default function Portfolio() {
     </section>
   );
 }
-
-
-
-
