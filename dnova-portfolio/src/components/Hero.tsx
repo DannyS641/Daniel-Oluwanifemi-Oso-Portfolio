@@ -68,7 +68,7 @@ Problem Solving, Critical Thinking, Communication, Team Collaboration, Fast Lear
     "/placeholders/DANIEL%20OLUWANIFEMI%20OSO%27s%20Resume.pdf";
 
   return (
-    <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 min-h-screen flex items-center bg-gradient-to-b from-gray-50 to-white">
+    <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 min-h-screen flex items-center bg-white">
       <div className="max-w-7xl mx-auto w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
@@ -128,11 +128,11 @@ Problem Solving, Critical Thinking, Communication, Team Collaboration, Fast Lear
             }`}
           >
             <div className="relative">
-              <div className="bg-white rounded-2xl aspect-square flex items-center justify-center overflow-hidden">
+              <div className="bg-transparent aspect-square flex items-center justify-center">
                 <img
-                  src="/placeholders/Profile%20Image.png"
+                  src="/placeholders/Profile%20Image%20Cutout.png"
                   alt="Daniel Oluwanifemi Oso"
-                  className="w-full h-full object-cover object-[50%_20%]"
+                  className="w-full h-full object-cover object-[50%_20%] rounded-none"
                 />
               </div>
             </div>
