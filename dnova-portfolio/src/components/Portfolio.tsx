@@ -8,6 +8,7 @@ interface Project {
   category: string;
   description: string;
   image?: string;
+  video?: string;
   url?: string;
   role: string;
   responsibilities: string[];
@@ -20,7 +21,7 @@ const projects: Project[] = [
     category: "Web Application",
     description:
       "Property rental platform focused on fast discovery, clear listings, and smooth booking flows.",
-    image: "/placeholders/Dolphins%20Rental.png",
+    video: "/placeholders/house-of-dolphins-hero.mp4",
     url: "https://house-of-dolphins.vercel.app/",
     role: "Application Manager & Web Developer",
     responsibilities: [
@@ -97,7 +98,16 @@ export default function Portfolio() {
             >
               {/* Project Card */}
               <div className="relative overflow-hidden rounded-2xl bg-gray-100 aspect-video mb-4 group-hover:shadow-2xl transition-shadow">
-                {project.image ? (
+                {project.video ? (
+                  <video
+                    src={project.video}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                ) : project.image ? (
                   <img
                     src={project.image}
                     alt={project.title}

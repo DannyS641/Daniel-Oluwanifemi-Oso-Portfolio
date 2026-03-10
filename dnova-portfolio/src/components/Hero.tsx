@@ -128,16 +128,13 @@ Problem Solving, Critical Thinking, Communication, Team Collaboration, Fast Lear
             }`}
           >
             <div className="relative">
-              <div className="bg-gradient-to-br from-gray-200 to-gray-300 rounded-2xl aspect-square flex items-center justify-center overflow-hidden shadow-2xl">
+              <div className="bg-white rounded-2xl aspect-square flex items-center justify-center overflow-hidden">
                 <img
                   src="/placeholders/Profile%20Image.png"
                   alt="Daniel Oluwanifemi Oso"
                   className="w-full h-full object-cover object-[50%_20%]"
                 />
               </div>
-              {/* Decorative Elements */}
-              <div className="absolute -top-4 -right-4 w-24 h-24 bg-yellow-300 opacity-50 rounded-full blur-2xl"></div>
-              <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-blue-300 opacity-50 rounded-full blur-2xl"></div>
             </div>
           </div>
         </div>
